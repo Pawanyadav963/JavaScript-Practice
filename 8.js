@@ -1,8 +1,5 @@
-let a = 10;
-let b = 20;
-
-function add() {
-    //block of code
-    console.log(a + b);
+function cal (num1 , num2 ){
+    return num1 + num2 ;
 }
-add() // function calling 
+
+console.log(cal(10,20,30,40,50));
